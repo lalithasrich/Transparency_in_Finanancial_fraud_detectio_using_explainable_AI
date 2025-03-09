@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ad28f7249f88f3c6b2146cb665e87872dfdfdd724f4f184d0932ef078a38d9c
-size 123
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFF64C</color>
+</resources>

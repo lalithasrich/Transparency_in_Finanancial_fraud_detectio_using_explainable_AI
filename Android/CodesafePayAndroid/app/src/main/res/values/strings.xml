@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6344b1db7a86dd125456abbcda18aa786fa377efef301222e7f5512f02e1fd1e
-size 252
+<resources>
+    <string name="app_name">PaySafe</string>
+    <string name="title_activity_main">SafePay</string>
+    <string name="title_activity_user_main">UserMain</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

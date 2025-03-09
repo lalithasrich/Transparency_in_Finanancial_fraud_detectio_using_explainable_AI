@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2910c3131e2d2615300ea9abed7bcc18716a6d9a4c4e33c21b4c649f3dd6e082
-size 291
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.jetbrains.kotlin.android) apply false
+    alias(libs.plugins.google.gms.google.services) apply false
+}

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ad5b967ffd02e98bc127d8e9c0e04e9ea029b6ac94e77f18c7b810c1d604646
-size 403
+"""
+WSGI config for admin project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
+"""
+
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'admin.settings')
+
+application = get_wsgi_application()

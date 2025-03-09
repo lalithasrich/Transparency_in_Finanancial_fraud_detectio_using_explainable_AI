@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26b7ddb837a4c3de8cc8866f9fc30e0d1970ae301efe60ff6e440c29b715a10e
-size 734
+package com.project.creditPay.responsiveLayer.models
+
+import com.google.firebase.firestore.DocumentId
+import com.google.gson.annotations.SerializedName
+
+data class CardDetails (
+
+    @DocumentId var id          : String? = null,
+    @SerializedName("cardName"    ) var cardName    : String? = null,
+    @SerializedName("cardNumber"  ) var cardNumber  : String? = null,
+    @SerializedName("expiry"      ) var expiry      : String? = null,
+    @SerializedName("cvv"         ) var cvv         : String? = null,
+    @SerializedName("sessionTime" ) var sessionTime : String? = null,
+    @SerializedName("userId"      ) var userId      : String? = null,
+    @SerializedName("balanceOf"     ) var balanceOf  : Int? = null
+)

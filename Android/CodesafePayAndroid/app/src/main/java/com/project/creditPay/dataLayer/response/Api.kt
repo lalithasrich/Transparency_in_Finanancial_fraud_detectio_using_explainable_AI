@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0f14bf7cae42bf286ac914268f97b29725dc110d7856fd0d0257f38450cfc097
-size 578
+package com.project.creditPay.dataLayer.response
+
+import retrofit2.Response
+import retrofit2.http.GET
+import retrofit2.http.Query
+
+interface Api {
+    @GET("viewPoint/")
+    suspend fun checkDetails(
+        @Query("income")income:String,
+        @Query("customer_age")customer_age:String,
+        @Query("housing_status")housing_status:String,
+        @Query("phone_mobile_valid")phone_mobile_valid:String,
+        @Query("bank_months_count")bank_months_count:String,
+        @Query("keep_alive_session")keep_alive_session:String
+    ):Response<Predicted>
+
+}

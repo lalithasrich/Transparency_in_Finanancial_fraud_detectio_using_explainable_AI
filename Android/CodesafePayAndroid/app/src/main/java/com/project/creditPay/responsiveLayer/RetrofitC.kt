@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c0a062f9a5d9561608e048b97fdf69cad8666e0260fbe0d4cea697bc887d68e
-size 802
+package com.project.creditPay.responsiveLayer
+
+import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
+
+class RetrofitC {
+    private val baseUrl = "https://www.wizzie.online/creditCard/"
+    val api by lazy {
+        retrofit2.Retrofit.Builder().baseUrl(baseUrl)
+            .addConverterFactory(GsonConverterFactory.create()).client(
+                okhttp3.OkHttpClient.Builder().addInterceptor {
+                        it.withReadTimeout(1, TimeUnit.MINUTES)
+                        it.withWriteTimeout(1, TimeUnit.MINUTES)
+                        it.withConnectTimeout(1, TimeUnit.MINUTES)
+                        it.proceed(it.request())
+                    }.build()
+            ).build().create(
+                Api::class.java)
+
+
+    }
+}

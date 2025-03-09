@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63583bca17d525ceda31a6840d8cc02344236ebc036081dfc8c9a46a14fb7e49
-size 474
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MaterialThemeProjectNewConfig">
+    <option name="metadata">
+      <MTProjectMetadataState>
+        <option name="migrated" value="true" />
+        <option name="pristineConfig" value="false" />
+        <option name="userId" value="4201a10:192511fcc7d:-8000" />
+        <option name="version" value="8.13.2" />
+      </MTProjectMetadataState>
+    </option>
+  </component>
+</project>

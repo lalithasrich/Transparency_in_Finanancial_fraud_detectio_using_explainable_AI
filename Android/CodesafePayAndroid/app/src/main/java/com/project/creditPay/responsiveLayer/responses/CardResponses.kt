@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:04de2aab951593b908fd40d70fe358e63df4307d68f58a468e4758852f0eec71
-size 436
+package com.project.creditPay.responsiveLayer.responses
+
+import com.google.gson.annotations.SerializedName
+import com.project.creditPay.responsiveLayer.models.CardDetails
+
+data class CardResponses (
+    @SerializedName("error"   ) var error   : Boolean?        = null,
+    @SerializedName("message" ) var message : String?         = null,
+    @SerializedName("data"    ) var data    : ArrayList<CardDetails> = arrayListOf()
+)

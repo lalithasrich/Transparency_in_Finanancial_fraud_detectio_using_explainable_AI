@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1224ff1ade25c704814398331e5d5c9f1db79e7a4c364227d7a469b78bc0c570
-size 403
+"""
+ASGI config for admin project.
+
+It exposes the ASGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/5.1/howto/deployment/asgi/
+"""
+
+import os
+
+from django.core.asgi import get_asgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'admin.settings')
+
+application = get_asgi_application()

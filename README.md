@@ -21,7 +21,7 @@
 **DATASET DETAILS :**
 
 <div align="justify">The dataset used for this project is collected from Kaggle <b> “Bank Account Fraud Dataset” </b>. The dataset comprises a diverse collection of financial transaction records, specifically curated to detect fraudulent banking activities and enhance digital transaction security. It includes various transaction attributes such as transaction ID, user ID, transaction amount, location data, timestamp, and fraud labels (0 for legitimate, 1 for fraud). This dataset helps to make the model more versatile during training, ensuring accurate fraud detection and minimizing false positives and negatives. The dataset consists of 638,000 transactions, which are further split into 448,000 (70%) train, 127,000 (20%) validation, and 63,000 (10%) test samples.</div><br/>
-The dataset can be accessed by using the link : https://universe.roboflow.com/brad-dwyer/aquarium-combined/dataset/6](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data) <br/><br/>
+The dataset can be accessed by using the link : https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data <br/><br/>
 
 <br/>
 

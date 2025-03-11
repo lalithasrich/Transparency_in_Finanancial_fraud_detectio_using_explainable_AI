@@ -1,33 +1,24 @@
-**PROJECT DETAILS :**
+# Transparency in Financial Fraud Detection using Explainable AI
 
-<div align="justify">This project focuses on developing a secure Android application for managing credit card transactions while detecting fraudulent activities in real-time. It enables users to transfer funds securely with each transaction being recorded and analyzed to ensure transparency and reliability. Leveraging advanced machine learning models such as Random Forest, XGBoost, and an Ensemble model, the system examines transaction patterns to classify them as fraudulent or legitimate, immediately preventing suspicious transactions. The application is built using Android Jetpack components and Kotlin for an intuitive user experience, while machine learning models are implemented in Python with libraries like Pandas, NumPy, and Scikit-Learn to ensure efficient data processing and accurate fraud detection. Firebase is used for real-time database management, allowing seamless data storage and retrieval. The system also incorporates Explainable AI (XAI) techniques such as SHAP and LIME to provide insights into why certain transactions are flagged, improving user understanding and trust. Continuously learning from transaction data, the model adapts to emerging fraud patterns and expanded support for various digital payment methods, making it a robust solution for secure and efficient financial transactions.</div><br/>
+## Overview
+This project implements a Machine Learning-based fraud detection system for real-time credit card transactions using Random Forest, XGBoost, and an Ensemble model. The system processes transaction data to detect fraudulent activities and immediately blocks suspicious transactions. It integrates Explainable AI (SHAP, LIME) to enhance transparency in decision-making and for managing financial transactions while proactively preventing fraud.
 
-**FEATURES :**
 
-<div align="justify">
+## Features
+- Utilizes Random Forest, XGBoost, and an Ensemble model for accurate fraud detection.
+- Integrates SHAP and LIME for explainable AI, providing insights into fraud detection decisions.
+- Detects fraudulent transactions in real time and blocks them before processing.
+- Maintains a comprehensive transaction log for transparency and accountability.
+- Built with Android Jetpack and Kotlin, ensuring a seamless user experience.
+  
 
-<b>1)User-Friendly Interface :</b> Designed for ease of use, allowing researchers and conservationists to utilize the system effectively.
+## Dataset Details
 
-<b>2)High Accuracy : </b> Utilizes advanced machine learning models to enhance the accuracy of financial fraud detection.
+The dataset used for this project is collected from Kaggle <b> “Bank Account Fraud Dataset” </b>. The dataset comprises a diverse collection of financial transaction records, specifically curated to detect fraudulent banking activities and enhance digital transaction security. It includes various transaction attributes such as transaction ID, user ID, transaction amount, location data, timestamp, and fraud labels (0 for legitimate, 1 for fraud). This dataset helps to make the model more versatile during training, ensuring accurate fraud detection and minimizing false positives and negatives. The dataset consists of 638,000 transactions, which are further split into 448,000 (70%) train, 127,000 (20%) validation, and 63,000 (10%) test samples.</div><br/>
+The dataset can be accessed by using the link : https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data 
 
-<b>3)Explainable AI (XAI) for Transparency :</b> Uses SHAP (Shapley Additive Explanations) and LIME (Local Interpretable Model-agnostic Explanations) to explain why a transaction was flagged as fraudulent.
 
-<b>4)Real-Time Fraud Detection :</b> Uses machine learning models to classify transactions as fraudulent or legitimate instantly.Fraudulent transactions are halted before they proceed.
-
-<b>5)Comprehensive Transaction Log :</b> The system maintains a detailed history of transactions for user reference and auditing.
-
-<b>6)Scalability and Flexibility :</b> The lightweight nature of the proposed system, powered by MobileNet, offers scalability and flexibility. </div><br/>
-
-**DATASET DETAILS :**
-
-<div align="justify">The dataset used for this project is collected from Kaggle <b> “Bank Account Fraud Dataset” </b>. The dataset comprises a diverse collection of financial transaction records, specifically curated to detect fraudulent banking activities and enhance digital transaction security. It includes various transaction attributes such as transaction ID, user ID, transaction amount, location data, timestamp, and fraud labels (0 for legitimate, 1 for fraud). This dataset helps to make the model more versatile during training, ensuring accurate fraud detection and minimizing false positives and negatives. The dataset consists of 638,000 transactions, which are further split into 448,000 (70%) train, 127,000 (20%) validation, and 63,000 (10%) test samples.</div><br/>
-The dataset can be accessed by using the link : https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data <br/><br/>
-
-<br/>
-
-**ALGORITHMS AND TECHNOLOGIES :**
-
-<div align="justify">
+## Algorithms and Technologies
   
 <b>1)Random Forest : </b> Ensemble learning method for high accuracy in fraud detection.
 
@@ -41,10 +32,8 @@ The dataset can be accessed by using the link : https://www.kaggle.com/datasets/
 
 <b>6)Android Jetpack & Kotlin :</b> Used for mobile application development.
 
-<b>7)HTML, CSS, and JavaScript :</b> Used to develop a web-based platform where users can upload transaction details and sign in to interact with the system.</div><br/>
 
-
-**STEPS FOR PROJECT EXECUTION :**
+## Steps for project execution
 
 1)Download all the files.
 
@@ -60,7 +49,7 @@ The dataset can be accessed by using the link : https://www.kaggle.com/datasets/
 
 <br/>
 
-**PROJECT WORKFLOW :**
+## Project Workflow
 
 <div align="justify">
 

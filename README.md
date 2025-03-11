@@ -63,4 +63,4 @@ The dataset can be accessed by using the link : https://www.kaggle.com/datasets/
 
 <b>5)Fraud Prediction in Real-Time :</b> A new transaction is passed through the trained model. The system classifies it as fraudulent or legitimate.Fraudulent transactions are blocked immediately.
 
-<b>8)Output & Visualization :</b> The system displays the transaction as fraudulent or not helping users to analyze the results.</div>
+<b>6)Output & Visualization :</b> The system displays the transaction as fraudulent or not helping users to analyze the results.</div>

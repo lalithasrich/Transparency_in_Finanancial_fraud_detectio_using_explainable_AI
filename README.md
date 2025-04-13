@@ -57,7 +57,6 @@
 
 10) Predict fraud in real-time using machine learning models and display whether the transaction is accepted or rejected based on the prediction.
  
- <br/>
  
  ## Project Workflow
  

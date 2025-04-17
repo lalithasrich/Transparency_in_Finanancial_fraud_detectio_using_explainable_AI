@@ -500,5 +500,5 @@ elif st.session_state.page == "Customer Profile":
     customer_profile_page()
 elif st.session_state.page == "Bank Employee":
     bank_employee_page()
-elif st.session_state.page == "Employee Panel":
+elif st.session_state.page == "Admin Panel":
     bank_employee_page()
